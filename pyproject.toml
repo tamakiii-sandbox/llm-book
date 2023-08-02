@@ -8,6 +8,7 @@ packages = [{include = "llm_book"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+fugashi = "^1.2.1"
 
 
 [build-system]
