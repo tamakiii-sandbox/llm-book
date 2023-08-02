@@ -5,6 +5,8 @@ help:
 
 install: \
 	.venv
+	pip install fugashi
+	pip install 'fugashi[unidic-lite]'
 
 uninstall:
 	rm -rv .venv
