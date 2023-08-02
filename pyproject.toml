@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "llm-book"
+version = "0.1.0"
+description = ""
+authors = ["tamakiii <tamakiii@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "llm_book"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
